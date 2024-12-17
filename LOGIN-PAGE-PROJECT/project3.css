@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    
+}
+body{
+    background: linear-gradient( rgb(241, 185, 185) , rgb(156, 241, 156) , rgb(137, 137, 198));
+}
+header{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#box_container{
+    height: 200px;
+    width: 180px;
+    padding: 15px;
+    border: 1px solid rgb(244, 151, 227);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(146, 62, 62, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    background: transparent;
+    background-position: center;
+    background: blur(5px);
+    
+  
+
+}
+
+#login{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 18px;
+}
+#text input{
+    
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-size: 10px;
+    width: 140px;
+    margin: 3px;
+    padding: 5px;
+    background: transparent;
+   
+    
+}
+
+#text  span{
+    position: relative;
+    right: 16px;
+    top: 32px;
+    font-size: 12px;
+   
+   
+}
+
+#font{
+    display: flex;
+    justify-content:space-between;
+}
+#check_box{
+    position: relative;
+    top: 50px;
+
+}
+#check{
+    
+    font-size: 9px;   
+    position: relative;
+    top: 50px; 
+    right: 23px;
+    
+}
+#font a{
+    font-size: 9px;   
+    position: relative;
+    top: 50px; 
+    text-decoration: none;
+    color: black;
+
+}
+
+#btn button{
+    position: relative;
+    top: 60px;
+    width:100% ;
+    padding: 3px;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px;
+    background: transparent;
+    background-color:rgb(99, 99, 99);
+    color: white;
+    font-weight: 600;
+}
+
+#text2{
+    font-size: 9px;
+   position: relative;
+   top: 70px;
+}
+
+#text2 span{
+    font-weight: 600;
+}
